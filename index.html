@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Main page</title>
 </head>
 <body>
   
-    <header class="text-style">
+    <header>
        
+
 <nav>
     <a href="./index.html">WebStudio</a>
 <ul>
 
     <li> <a href=""> Studio </a> </li>
-    <li> <a href=""> Portfolio </a></li>
+    <li> <a href="#Portfolio"> Portfolio </a></li>
     <li> <a href=""> Contacts </a></li>
 
 </ul>
@@ -22,8 +24,8 @@
 <address>
     <ul> 
 
-        <li> <a href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
-        <li><a href="tel:+110001111111"> +11 (000) 111-11-11 </a></li>
+        <li> <a class="style"  href="mailto:info@devstudio.com"> info@devstudio.com </a></li>
+        <li><a  class="style" href="tel:+110001111111"> +11 (000) 111-11-11 </a></li>
     
     </ul>
 </address>
@@ -31,35 +33,36 @@
  </header>
 
  <main>
-    <section>
+    <section class="first-section">
 
-  <h1> Effective Solutions for Your Business </h1>
+  <h1 class="title"> Effective Solutions for Your Business </h1>
 
-  <button class="text-style" type="button">Order Service</button>
+  <button class="style" type="button">Order Service</button>
 </section>
       <!--About something-->
-<section>
+<section class="second-section">
+
   <h2>About</h2>
 
   <ul>
 
     <li>
-        <h3>Strategy</h3>
+        <h3  class="page-title">Strategy</h3>
               <p>Our goal is to identify the business problem to walk away with the perfect and creative solution.
                </p>
     </li>
     <li>
-        <h3>Punctuality</h3>
+        <h3  class="page-title">Punctuality</h3>
              <p>Bring the key message to the brand's audience for the best price within the shortest possible time.
             </p>
 </li>
     <li>
-        <h3>Diligence</h3>
+        <h3 class="page-title">Diligence</h3>
              <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk.
              </p>
 </li>
     <li>
-        <h3>Technologies</h3>
+        <h3  class="page-title">Technologies</h3>
               <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.
                 </p>
 </li>
@@ -67,15 +70,15 @@
   </ul>
 </section>
       <!--About team-->
-<section>
+<section class="third-section">
 
-<h2>Our Team</h2>
+<h2 class="main-page-title">Our Team</h2>
 <ul>
     <li>
         <img src="./images/e97b24b6-3368-4188-99ba-1df2d1759bbd.jpg" 
         alt="man in a shirt" 
         width="264">
-        <h3>Mark Guerrero</h3>
+        <h3 class="page-title">Mark Guerrero</h3>
         <p>Product Designer</p>
     </li>
 
@@ -83,7 +86,7 @@
         <img src="./images/96d0739d-6188-407e-ad76-1a3c03481dd5.jpg" 
         alt="man with dark hair"
         width="264">
-        <h3>Tom Ford</h3>
+        <h3 class="page-title">Tom Ford</h3>
         <p>Frontend Developer</p>
     </li>
 
@@ -91,7 +94,7 @@
         <img src="./images/c6db3c4e-a105-44a6-bded-4d2781dac5b7.jpg" 
         alt="pretty girl"
         width="264">
-        <h3>Camila Garcia</h3>
+        <h3 class="page-title">Camila Garcia</h3>
         <p>Marketing</p>
     </li>
 
@@ -99,7 +102,7 @@
         <img src="./images/bc754c14-3c98-423a-8938-a1ac21a4ffde.jpg" 
         alt="man in a gray shirt"
         width="264">
-        <h3>Daniel Wilson</h3>
+        <h3 class="page-title">Daniel Wilson</h3>
         <p>UI Designer</p>
     </li>
 
@@ -109,44 +112,44 @@
 
 <!--Portfolio-->
 
-<section>
-    <h2>Our Portfolio</h2>
+<section class="fourth-section">
+    <h2 class="main-page-title" id="Portfolio">Our Portfolio</h2>
     <ul>
 
         <li>
-            <img src="./images/img.jpg" alt="Banking App "
+            <img src="./images/app.jpg" alt="Banking App "
             width="360">
-            <h3>Banking App</h3>
+            <h3 class="page-title">Banking App</h3>
             <p>App</p>
         </li>
         <li>
-            <img src="./images/img (4).jpg" alt="Phone app "
+            <img src="./images/phone app.jpg" alt="Phone app "
             width="360">
-            <h3>Cashless Payment</h3>
+            <h3 class="page-title">Cashless Payment</h3>
             <p>Marketing</p>
         </li>
         <li>
-            <img src="./images/img (5).jpg" alt="Photo of computer"
+            <img src="./images/computer.jpg" alt="photo of computer"
             width="360">
-            <h3>Meditation App</h3>
+            <h3 class="page-title">Meditation App</h3>
             <p>App</p>
         </li>
         <li>
-            <img src="./images/img (1).jpg" alt="Photo of taxi"
+            <img src="./images/car.jpg" alt="photo of taxi"
             width="360">
-            <h3>Taxi Service</h3>
+            <h3 class="page-title">Taxi Service</h3>
             <p>Marketing</p>
         </li>
         <li>
-            <img src="./images/img (2).jpg" alt="Photo wallpaper"
+            <img src="./images/computer.jpg" alt="photo wallpaper"
             width="360">
-            <h3>Screen Illustrations</h3>
+            <h3 class="page-title">Screen Illustrations</h3>
             <p>Design</p>
         </li>
         <li>
-            <img src="./images/img (3).jpg" alt="Photo of girl"
+            <img src="./images/girl.jpg" alt="photo of girl"
             width="360">
-            <h3>Online Courses</h3>
+            <h3 class="page-title">Online Courses</h3>
             <p>Marketing</p>
         </li>
 
