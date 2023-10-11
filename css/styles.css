@@ -8,28 +8,29 @@ body {
 /* Header */
 
 .logo{ 
+ font-size: 18px;
 color: var(--IRIS, #4D5AE5);
-font-family: Raleway, sans-serif,
-font-size: 18px;
-font-style: normal;
+font-family: Raleway, sans-serif;
 font-weight: 700;
 line-height: 21px; 
 line-height: 1.17;
 text-transform: uppercase;
 text-decoration: none;
-width: 44px;
+font-style: normal;
+letter-spacing: 0.03em;
 }
 
 .logotip {
-color: var(--NAVY-BLUE, #2E2F42);
-font-family: Raleway, sans-serif,
-font-size: 18px;
-font-style: normal;
-font-weight: 700; 
-text-transform: uppercase;
-width: 71px;
-text-decoration: none;
-line-height: 1.17;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .contacts {
@@ -37,12 +38,13 @@ line-height: 1.17;
 }
 
 .contacts:hover {
-color: #404bbf;
+    color: #404bbf;
 }
 
 
 .link:hover,
-.link:active {
+.link:active,
+.link:focus {
       color: #404bbf;
 }
 
@@ -90,6 +92,7 @@ font-weight: 700;
 line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
+line-height: 1.07;
 
  }
 
@@ -119,6 +122,13 @@ cursor: pointer
     background-color: #FFFFFF;
 }
 
+.title-strategy {
+    color: #2e2f42;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
 /* sections 3*/
 
 .team_section {
@@ -140,7 +150,7 @@ cursor: pointer
     letter-spacing: 0.02em;
 }
 
-.section_title {  
+.section-title {  
 color: #2e2f42;
 font-size: 36px;
 font-weight: 700;
@@ -186,11 +196,11 @@ color: #F4F4FD;
 
 .logo-footer {
 color: var(--CLOUD, #F4F4FD);
-font-family: Raleway, sans-serif,
+font-family: Raleway, sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
-letter-spacing: 0.54px;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 width: 71px;
 line-height: 1.17
