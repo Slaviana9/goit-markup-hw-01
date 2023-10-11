@@ -158,14 +158,14 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.02em;
 text-align: center;
-line-height: 1.2;
+line-height: 1.11;
 text-transform: capitalize;
 
 }
 
 
 /* sections 4*/
-.portfolio_section {
+.portfolio-section {
     background-color: #FFFFFF;
 }
 
