@@ -135,6 +135,11 @@ cursor: pointer
 .team-section {
     background-color: #F4F4FD;
 }
+.list {
+    background-color: #FFFFFF;
+    line-height: 1.2;
+
+}
 
 .titles-about-team {
     color: #2e2f42;
