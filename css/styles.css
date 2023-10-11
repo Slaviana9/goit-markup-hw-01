@@ -135,9 +135,11 @@ cursor: pointer
 .team-section {
     background-color: #F4F4FD;
 }
+
+
 .list {
     background-color: #FFFFFF;
-    line-height: 1.2;
+
 
 }
 
@@ -163,7 +165,7 @@ font-weight: 700;
 line-height: 40px;
 letter-spacing: 0.02em;
 text-align: center;
-line-height: 1.11;
+line-height: 1.2;
 text-transform: capitalize;
 
 }
@@ -196,8 +198,6 @@ line-height: 24px;
 letter-spacing: 0.02em;
 text-align: left;
 color: #F4F4FD;
-
-
 }
 
 .logo-footer {
