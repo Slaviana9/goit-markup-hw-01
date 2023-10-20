@@ -65,6 +65,7 @@ img{
    text-decoration: none;
    font-style: normal;
    letter-spacing: 0.03em;
+    margin-right: 76px
  
 }
 
@@ -352,15 +353,14 @@ img{
 
 .basement{
     background-color:#2E2F42;
-    padding: 100px 0 100px;
+    height: 312px;
 
 }
 
 .foot-container{
-    display: flex;
     flex-direction: column;
-    height: 312px;
-    width: 1158px;
+    padding-top: 101.5px;
+    margin-bottom: 189px;
 }
  
 .logo-footer {
@@ -383,7 +383,6 @@ color: #F4F4FD;
 width: 264px;
 display: block;
 align-items: flex-start;
-margin-bottom: 100px;
 
 }
 
@@ -400,9 +399,8 @@ margin-bottom: 100px;
    text-decoration: none;
    font-style: normal;
    letter-spacing: 0.03em;
-   margin-right: 76px;
-   padding-top: 25.5px;
-   padding-bottom: 25.5px;
+   margin-bottom: 17.5px;
+ 
 }
 
 
