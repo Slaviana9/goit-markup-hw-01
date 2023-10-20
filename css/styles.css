@@ -51,7 +51,6 @@ img{
     display: flex;
     align-items: center;
     height: 72px;
-    width: 1158px;
 }
 
 .logo{ 
@@ -354,13 +353,13 @@ img{
 .basement{
     background-color:#2E2F42;
     height: 312px;
+    padding: 100px 0;
 
 }
 
 .foot-container{
     flex-direction: column;
-    padding-top: 101.5px;
-    margin-bottom: 189px;
+   
 }
  
 .logo-footer {
@@ -399,7 +398,7 @@ align-items: flex-start;
    text-decoration: none;
    font-style: normal;
    letter-spacing: 0.03em;
-   margin-bottom: 17.5px;
+   margin-bottom: 16px;
  
 }
 
