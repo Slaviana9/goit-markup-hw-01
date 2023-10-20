@@ -68,6 +68,7 @@ img{
    margin-right: 76px;
    padding-top: 25.5px;
    padding-bottom: 25.5px;
+   display: inline-block;
 }
 
 .logotip {
