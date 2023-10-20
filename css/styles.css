@@ -68,7 +68,6 @@ img{
    margin-right: 76px;
    padding-top: 25.5px;
    padding-bottom: 25.5px;
-   display: inline-block;
 }
 
 .logotip {
@@ -394,7 +393,6 @@ margin-bottom: 100px;
 .logo-web{
     display: inline-block;
     padding-top: 101.5px;
-    align-items: flex-start;
     margin-bottom: 17.5px;
     margin-bottom: 16px;
 }
