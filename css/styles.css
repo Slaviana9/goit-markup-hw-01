@@ -34,23 +34,26 @@ img{
 
                                       /* Header */
 
- .border{
+ .header{
    border-bottom: 1px solid #e7e9fc;
+   padding: 24px 0 24px;
   }
 
 
 .container {
       width: 1158px;
+      align-items: center;
       margin-right: auto;
       margin-left: auto;
       padding-right: 15px;
       padding-left: 15px;
+      
  }
 
 .header-container{
-    display: flex;
-    align-items: center;
-    height: 72px;
+      display: flex;
+      justify-content: space-between;
+      
 }
 
 .logo{ 
@@ -64,7 +67,7 @@ img{
    text-decoration: none;
    font-style: normal;
    letter-spacing: 0.03em;
-    margin-right: 76px
+  margin-right: 76px;
  
 }
 
@@ -83,12 +86,17 @@ img{
 
    .page-nav{
     display: flex;
-    align-items: baseline;
+    justify-content: space-around;
     align-items: center;
-    gap: 40px;
-    padding: 24px 0 24px;
 
    }
+
+   .header-nav{
+    display: flex;
+    gap: 40px;
+
+   }
+
 
    .link {
     text-decoration: none;
@@ -97,8 +105,7 @@ img{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
-     padding-bottom: 24px;
+    
    }
    
    .link:hover,
@@ -107,9 +114,9 @@ img{
        color: #404bbf;
  }
 
+
    .contacts-menu{
     display: flex;
-    margin-left: 166px;
     gap: 40px;
    }
 
@@ -130,6 +137,7 @@ img{
      }
 
      
+
                               /* sections 1*/
 
   .hero-section {
@@ -151,7 +159,7 @@ img{
     margin-left: auto;
     margin-right: auto;
    
-    margin-bottom: 24px;
+    margin-bottom: 48px;
     display: block;
     max-width: 496px;
 }
@@ -172,7 +180,6 @@ img{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    margin-top: 24px;
     min-width: 169px;
     border: none; 
     height: 56px;
@@ -190,10 +197,14 @@ img{
 
 
                         /* sections 2*/
+
+                        
    
   .next_section {
     background-color: #FFFFFF;
     padding: 120px 0 120px;
+    margin-right: auto;
+     margin-left: auto;
    }
 
    .visually-hidden{
@@ -212,16 +223,13 @@ img{
 
     .menu{
         display: flex;
-        margin-right: auto;
-        margin-left: auto;
         gap: 24px; 
       }
 
 
-    .menu-list{
-        width: calc((100% - 72px) / 4);
-
- }
+    /* .menu-list{ */
+        /* width: calc((100% - 72px) / 4); */
+    /* } */
 
    .title-strategy {
     color: #2e2f42;
@@ -245,8 +253,6 @@ img{
 
   .title-team{
     display: block;
-    padding-top: 120px;
-    margin-bottom: 72px; 
     margin-left: auto;
     margin-right: auto;
      }
@@ -259,7 +265,6 @@ img{
     display: flex;
    gap: 24px;
    margin-right: auto;
-   padding-bottom: 120px;
    margin-left: auto;
 }
 
@@ -299,6 +304,8 @@ img{
 .portfolio-sect{
     background-color: #FFFFFF;
     padding: 120px 0px 120px 0px;
+    margin-right: auto;
+    margin-left: auto; 
 
 }
 
@@ -328,15 +335,12 @@ img{
    }
 
     
-   .menu-list{
+   .portfolio-list{
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     width: 1158px;
-    margin-right: auto;
-    margin-left: auto; 
-    padding-bottom: 120px;
     }
 
     .portfolio-section {
