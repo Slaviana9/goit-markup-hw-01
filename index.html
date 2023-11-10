@@ -2,15 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <title>Main page</title>
 
 </head>
@@ -33,7 +33,12 @@
                      </li>
                 </ul>
         </nav>
-                <address>
+        <button class="mobile-open-button" type="button">
+            <svg class="mobile-open-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-heroicons"></use>
+            </svg>
+        </button>
+                <address class="header-contacts-menu">
                   <ul  class="contacts-menu"> 
                      <li>
                         <a class="contact-link" href="mailto:info@devstudio.com"> info@devstudio.com </a>
@@ -46,17 +51,17 @@
 </header>
                                 <!--Hero-->
 
- <main>
+ <!-- <main>
       <section class="hero-section">
           <div  class="container">
               <h1 class="title"> Effective Solutions for Your Business </h1>
               <button class="link-click" type="button">Order Service</button>
           </div>
-        </section>
+        </section> -->
 
                                  <!--About something-->
 
-<section class="next_section">
+<!-- <section class="next_section">
      <div class="container">
          <h2 class="visually-hidden">About</h2>
             <ul class="menu">
@@ -103,10 +108,10 @@
                  </li>
              </ul>
      </div>
-</section>
-                                 <!--About team-->
+</section> -->
+                                 About team
 
-<section class="team-section">
+<!-- <section class="team-section">
      <div  class="container container-team">
          <h2 class="section-title title-team">Our Team</h2>
              <ul class="list-menu">
@@ -265,25 +270,31 @@
                                     </svg>
                                 </a>
                            </li>
-                           </ul>
-                          
-                   </div>   
+                           </ul>      
+                 </div>   
  </li>
-
-
 </ul>
 </div>
-</section>
+</section> -->
 
                           <!--Portfolio-->
 
-<section class="portfolio-sect">
+<!-- <section class="portfolio-sect">
      <div  class="container">
           <h2 class="section-title" id="Portfolio">Our Portfolio</h2>
              <ul class="portfolio-list">
                  <li class="portfolio-cont" >
       <div class="overly-wraper">
-          <img  src="./images/app.jpg" alt="banking App "
+          <img  srcset="
+          ./images/app-phone.jpg 288w,
+          ./images/app-tab.jpg 360w,
+          ./images/
+          ./images/app-phone@2.jpg 576w,       
+          ./images/app-tab@2.jpg 720w,
+           "
+           sizes="(min-width:1158px) 360px, (min-width: 768px) 356px, (max-width: 320px) 288px" 
+
+          src="./images/app.jpg" alt="banking App "
                 width="360">
              <p class="overly">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
                     Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -361,11 +372,11 @@
     </ul>
 </div>
 </section>
-</main>  
+</main>   -->
 
                        <!-- Footer -->
 
- <footer class="basement">
+ <!-- <footer class="basement">
     <div class="div-footer">
         <div  class="foot-container">
         <a class="logo-web" href="./index.html">Web<span class="logo-footer">Studio</span></a> 
@@ -422,8 +433,9 @@
             </form>
             </div>
     </div>
- </footer>
-<div class="backdrop is-open">
+ </footer> -->
+
+<!-- <div class="backdrop"> is-open
     <div class="modal">
                   <button
                    class="close-button"
@@ -505,7 +517,69 @@
                     
                     </form>
     </div>
-</div>
+</div> -->
+<!-- mobile menu -->
+<div class="mobile-menu ">
+    <div class="container mob-menu-container">
+        <button class="mob-menu-close-btn" type="button">
+            <svg class="mobile-menu-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <nav>
+            <ul class="mobile-nav">
+                <li class="link-mob-menu"> 
+                    <a class="link-mob" href="./index.html"> Studio </a> </li>
+                 <li class="link-mob-menu">
+                    <a class="link-mob" href=""> Portfolio </a>
+             </li>
+             <li class="link-mob-menu" >
+                 <a class="link-mob" href=""> Contacts </a>
+             </li>
+        </ul>
+        </nav>
+        <address class="mob-address-menu-cont">
+            <ul  class="mob-address-menu"> 
+                <li><a class="" href="tel:+110001111111"> +11 (000) 111-11-11 </a>
+                </li>
+               <li>
+                  <a class="" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+              </li>    
+          </ul>
+          </address>
+          <ul class="mobile-nav-icon-container">
+            <li class="mob-icon-color">
+                <a href="#" class="link-focus">
+                 <svg  class="mob-list"  width="24" height="24" >
+                 <use href="./images/icons.svg#icon-instagram"></use>
+                 </svg> 
+                </a>
+            </li>
+            <li class="mob-icon-color">
+                <a href="#" class="">
+                <svg class="mob-list"  width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+                  </a>
+             </li>
+            <li class="mob-icon-color"> 
+                 <a href="#" class="">
+                    <svg class="mob-list" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+                </svg> 
+                 </a>
+            </li>
+            <li class="mob-icon-color"> 
+                 <a href="#" class="">
+                    <svg class="mob-list"  width="24" height="24">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+           </li>
+           </ul>
 
+        
+    </div>
+</div>
 </body>
 </html>
